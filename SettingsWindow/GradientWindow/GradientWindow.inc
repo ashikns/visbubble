@@ -14,25 +14,91 @@ Meter=Image
 MeterStyle=styleAnchorFill
 X=25
 SolidColor=96,57,255,255
-[0_100]
+[0_35]
 Meter=Image
 MeterStyle=styleGradient
 SolidColor=96,57,255,255
-SolidColor2=0,0,0,255
+SolidColor2=241,0,255,255
 X=32
-W=320
+W=112
 [2a]
 Meter=Image
 MeterStyle=styleAnchor
-X=344
+X=136
 LeftMouseDownAction=[!CommandMeasure s "anchorSelect(2)"]
 RightMouseDownAction=[!CommandMeasure s "anchorDelete(2)"]
 [2c]
 Meter=Image
 MeterStyle=styleAnchorFill | styleCheck
-X=345
+X=137
 [2f]
 Meter=Image
 MeterStyle=styleAnchorFill
+X=137
+SolidColor=241,0,255,255
+[35_55]
+Meter=Image
+MeterStyle=styleGradient
+SolidColor=241,0,255,255
+SolidColor2=255,71,0,255
+X=144
+W=64
+[3a]
+Meter=Image
+MeterStyle=styleAnchor
+X=200
+LeftMouseDownAction=[!CommandMeasure s "anchorSelect(3)"]
+RightMouseDownAction=[!CommandMeasure s "anchorDelete(3)"]
+[3c]
+Meter=Image
+MeterStyle=styleAnchorFill | styleCheck
+X=201
+[3f]
+Meter=Image
+MeterStyle=styleAnchorFill
+X=201
+SolidColor=255,71,0,255
+[55_76]
+Meter=Image
+MeterStyle=styleGradient
+SolidColor=255,71,0,255
+SolidColor2=255,251,0,255
+X=208
+W=68
+[4a]
+Meter=Image
+MeterStyle=styleAnchor
+X=267
+LeftMouseDownAction=[!CommandMeasure s "anchorSelect(4)"]
+RightMouseDownAction=[!CommandMeasure s "anchorDelete(4)"]
+[4c]
+Meter=Image
+MeterStyle=styleAnchorFill | styleCheck
+X=268
+[4f]
+Meter=Image
+MeterStyle=styleAnchorFill
+X=268
+SolidColor=255,251,0,255
+[76_100]
+Meter=Image
+MeterStyle=styleGradient
+SolidColor=255,251,0,255
+SolidColor2=20,197,0,255
+X=275
+W=77
+[5a]
+Meter=Image
+MeterStyle=styleAnchor
+X=344
+LeftMouseDownAction=[!CommandMeasure s "anchorSelect(5)"]
+RightMouseDownAction=[!CommandMeasure s "anchorDelete(5)"]
+[5c]
+Meter=Image
+MeterStyle=styleAnchorFill | styleCheck
 X=345
-SolidColor=0,0,0,255
+[5f]
+Meter=Image
+MeterStyle=styleAnchorFill
+X=345
+SolidColor=20,197,0,255

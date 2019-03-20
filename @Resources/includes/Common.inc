@@ -20,13 +20,12 @@ RMSDecay=#FFTDecay#
 
 [mState]
 Measure=Plugin
-Plugin=NowPlaying.dll
-PlayerName=#Player#
+Plugin=WebNowPlaying
 PlayerType=State
 IfEqualValue=1
 IfEqualAction=[!ShowFade]
-IfCondition=(#HideWhenNotPlaying#=1) && (mState<>1)
-IfTrueAction=[!HideFade]
+IfBelowValue=1
+IfBelowAction=[!HideFade]
 UpdateDivider=20
 DynamicVariables=1
 

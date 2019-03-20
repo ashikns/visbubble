@@ -25,14 +25,14 @@ Player=CAD
 HideWhenNotPlaying=0
 ;
 ; The size of the circle, to make it into an ellipse just give RadiusY a number
-Radius=300
-RadiusY=300
+Radius=200
+RadiusY=200
 ;
 ; Color of shapes/lines/bars. ItemColor2 is for MultiLineExtrude
 ; You can also input gradient in the format COLOR:PCT|COLOR2:PCT2
 ; example: 255,255,255,255:0|0,0,0,255:100 = white to black
 ; example: FF0000|FFFF00:16|00FF00:33|00FFFF:50|0000FF:67|FF00FF:84|FF0000 = rainbow
-ItemColor=255,255,255,202.84090909091
+ItemColor=0,0,0,255
 ItemColor2=255,221,0,255
 ;
 ; Width of shapes/lines/bars
@@ -42,7 +42,7 @@ ItemWidth=20
 NumOfItems=110
 ;
 ; How much to extrude line/bar/shape or max shape size for ShapeBubble
-ExtrudeMax=80
+ExtrudeMax=136
 ExtrudeMin=0
 ;
 ; Whether the line/bar/shape extrudes inwards or not
@@ -65,11 +65,11 @@ ClockWise=0
 ; FFT Options: For more detailed info, read http://docs.rainmeter.net/manual-beta/plugins/audiolevel#FFTOptions
 FFTSize=2048
 FFTOverlap=(#FFTSize#/2)
-FFTAttack=30
-FFTDecay=140
-FreqMin=60
+FFTAttack=100
+FFTDecay=150
+FreqMin=50
 FreqMax=11000
-Sensitivity=45
+Sensitivity=40
 AudioDeviceID=
 AudioDevicePort=Output
 
